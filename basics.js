@@ -1,7 +1,7 @@
 
 // Types in javascript (aka ECMAscript)
 
-// Numbers
+// Numbers //
 var number = 0.004;
 var notAnInteger = 23;
 
@@ -15,7 +15,8 @@ isNaN(parseInt('alpacas are life', 10)); // true
 + '12b3'; // NaN
 parseInt('12b3'); // 12
 
-// Strings
+
+// Strings //
 // can be used like objects too
 'hello'.charAt(0); // "h"
 'hello, world'.replace('hello', 'goodbye'); // "goodbye, world"
@@ -23,3 +24,17 @@ parseInt('12b3'); // 12
 
 Boolean('' && false && 0 && NaN && null && undefined); // all falsy
 // everything else is truthy!!
+
+// Variables //
+
+// Scope is a weird thing
+isFinite(cutePuppy); // false
+for (var cutePuppy = 0; cutePuppy < 11; cutePuppy++) {
+
+}
+isFinite(cutePuppy); // true
+
+
+// A == does type coercion, but === will know the truth
+123 == '123'; // true
+123 === '123'; // false
