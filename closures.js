@@ -1,4 +1,6 @@
-/* Whenever a func is called inside a func,
+/* https://stackoverflow.com/questions/111102/how-do-javascript-closures-work
+
+Whenever a func is called inside a func,
 a closure is used.
 A closure is a reference to the scope it 
 was declared in that remains open 
