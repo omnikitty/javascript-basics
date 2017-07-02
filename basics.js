@@ -1,5 +1,5 @@
 
-// Types in javascript (aka ECMAscript)
+// Types in javascript (aka ECMAScript)
 
 // Numbers //
 var number = 0.004;
