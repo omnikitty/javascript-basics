@@ -1,0 +1,22 @@
+{
+  "name": "javascript-basics",
+  "version": "1.0.0",
+  "description": "JS basics",
+  "main": "basics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omnikitty/javascript-basics.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Tian Ooi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omnikitty/javascript-basics/issues"
+  },
+  "homepage": "https://github.com/omnikitty/javascript-basics#readme"
+}
